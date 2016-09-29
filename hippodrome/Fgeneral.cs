@@ -67,6 +67,11 @@ namespace hippodrome
         private void btAjoutCourse_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnSalut_Click(object sender, EventArgs e)
+        {
+            btnSalut.Text = "Hi";
         }              
      }       
     }
