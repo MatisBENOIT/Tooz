@@ -67,6 +67,11 @@ namespace hippodrome
         private void btAjoutCourse_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnBiere_Click(object sender, EventArgs e)
+        {
+            lbPanache.Visible = true;
         }              
      }       
     }
