@@ -233,9 +233,9 @@
             this.lbPanache.Font = new System.Drawing.Font("Calibri", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbPanache.Location = new System.Drawing.Point(274, 379);
             this.lbPanache.Name = "lbPanache";
-            this.lbPanache.Size = new System.Drawing.Size(509, 78);
+            this.lbPanache.Size = new System.Drawing.Size(551, 78);
             this.lbPanache.TabIndex = 1;
-            this.lbPanache.Text = "Je sais panaché !!!";
+            this.lbPanache.Text = "Je sais panaché !!!!!";
             this.lbPanache.Visible = false;
             // 
             // Fgeneral
