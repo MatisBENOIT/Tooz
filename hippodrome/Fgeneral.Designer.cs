@@ -44,7 +44,12 @@
             this.dgCourses = new System.Windows.Forms.DataGridView();
             this.tabgeneral = new System.Windows.Forms.TabControl();
             this.tabCheval = new System.Windows.Forms.TabPage();
+<<<<<<< HEAD
             this.btnPapier = new System.Windows.Forms.Button();
+=======
+            this.btnBiere = new System.Windows.Forms.Button();
+            this.lbPanache = new System.Windows.Forms.Label();
+>>>>>>> b01dbaeb70e259e0ca4f5c3df7912b7d9bf205a9
             this.tabCourse.SuspendLayout();
             this.gbDetailCourse.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgCourses)).BeginInit();
@@ -205,7 +210,12 @@
             // 
             // tabCheval
             // 
+<<<<<<< HEAD
             this.tabCheval.Controls.Add(this.btnPapier);
+=======
+            this.tabCheval.Controls.Add(this.lbPanache);
+            this.tabCheval.Controls.Add(this.btnBiere);
+>>>>>>> b01dbaeb70e259e0ca4f5c3df7912b7d9bf205a9
             this.tabCheval.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tabCheval.Location = new System.Drawing.Point(4, 28);
             this.tabCheval.Name = "tabCheval";
@@ -215,6 +225,7 @@
             this.tabCheval.Text = "Les chevaux";
             this.tabCheval.UseVisualStyleBackColor = true;
             // 
+<<<<<<< HEAD
             // btnPapier
             // 
             this.btnPapier.Location = new System.Drawing.Point(866, 6);
@@ -224,6 +235,28 @@
             this.btnPapier.Text = "C\'est l\'histoire d\'une feuille qui tombe à l\'eau et qui crie ...";
             this.btnPapier.UseVisualStyleBackColor = true;
             this.btnPapier.Click += new System.EventHandler(this.btnSalut_Click);
+=======
+            // btnBiere
+            // 
+            this.btnBiere.Location = new System.Drawing.Point(403, 281);
+            this.btnBiere.Name = "btnBiere";
+            this.btnBiere.Size = new System.Drawing.Size(205, 95);
+            this.btnBiere.TabIndex = 0;
+            this.btnBiere.Text = "C\'est l\'histoire d\'une bière qui tombe à l\'eau et qui cri ...";
+            this.btnBiere.UseVisualStyleBackColor = true;
+            this.btnBiere.Click += new System.EventHandler(this.btnBiere_Click);
+            // 
+            // lbPanache
+            // 
+            this.lbPanache.AutoSize = true;
+            this.lbPanache.Font = new System.Drawing.Font("Calibri", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbPanache.Location = new System.Drawing.Point(274, 379);
+            this.lbPanache.Name = "lbPanache";
+            this.lbPanache.Size = new System.Drawing.Size(509, 78);
+            this.lbPanache.TabIndex = 2;
+            this.lbPanache.Text = "Je sais panaché !!!";
+            this.lbPanache.Visible = false;
+>>>>>>> b01dbaeb70e259e0ca4f5c3df7912b7d9bf205a9
             // 
             // Fgeneral
             // 
@@ -240,6 +273,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.dgCourses)).EndInit();
             this.tabgeneral.ResumeLayout(false);
             this.tabCheval.ResumeLayout(false);
+<<<<<<< HEAD
+=======
+            this.tabCheval.PerformLayout();
+>>>>>>> b01dbaeb70e259e0ca4f5c3df7912b7d9bf205a9
             this.ResumeLayout(false);
 
         }
@@ -262,7 +299,12 @@
         private System.Windows.Forms.DataGridView dgCourses;
         private System.Windows.Forms.TabControl tabgeneral;
         private System.Windows.Forms.TabPage tabCheval;
+<<<<<<< HEAD
         private System.Windows.Forms.Button btnPapier;
+=======
+        private System.Windows.Forms.Label lbPanache;
+        private System.Windows.Forms.Button btnBiere;
+>>>>>>> b01dbaeb70e259e0ca4f5c3df7912b7d9bf205a9
 
     }
 }

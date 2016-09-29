@@ -69,10 +69,16 @@ namespace hippodrome
 
         }
 
+<<<<<<< HEAD
         private void btnSalut_Click(object sender, EventArgs e)
         {
             btnPapier.Text = "J'ai papier!";
+=======
+        private void btnBiere_Click(object sender, EventArgs e)
+        {
+            lbPanache.Visible = true;
+>>>>>>> b01dbaeb70e259e0ca4f5c3df7912b7d9bf205a9
         }              
-     }       
+		}       
     }
 
