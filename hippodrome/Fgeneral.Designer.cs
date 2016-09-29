@@ -44,10 +44,13 @@
             this.dgCourses = new System.Windows.Forms.DataGridView();
             this.tabgeneral = new System.Windows.Forms.TabControl();
             this.tabCheval = new System.Windows.Forms.TabPage();
+            this.label_delegue_chevaux = new System.Windows.Forms.Label();
+            this.btn_delegue_chevaux = new System.Windows.Forms.Button();
             this.tabCourse.SuspendLayout();
             this.gbDetailCourse.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgCourses)).BeginInit();
             this.tabgeneral.SuspendLayout();
+            this.tabCheval.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabCourse
@@ -203,6 +206,8 @@
             // 
             // tabCheval
             // 
+            this.tabCheval.Controls.Add(this.label_delegue_chevaux);
+            this.tabCheval.Controls.Add(this.btn_delegue_chevaux);
             this.tabCheval.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tabCheval.Location = new System.Drawing.Point(4, 28);
             this.tabCheval.Name = "tabCheval";
@@ -211,6 +216,26 @@
             this.tabCheval.TabIndex = 0;
             this.tabCheval.Text = "Les chevaux";
             this.tabCheval.UseVisualStyleBackColor = true;
+            // 
+            // label_delegue_chevaux
+            // 
+            this.label_delegue_chevaux.AutoSize = true;
+            this.label_delegue_chevaux.Location = new System.Drawing.Point(132, 84);
+            this.label_delegue_chevaux.Name = "label_delegue_chevaux";
+            this.label_delegue_chevaux.Size = new System.Drawing.Size(76, 19);
+            this.label_delegue_chevaux.TabIndex = 1;
+            this.label_delegue_chevaux.Text = "BigArnaud";
+            this.label_delegue_chevaux.Visible = false;
+            // 
+            // btn_delegue_chevaux
+            // 
+            this.btn_delegue_chevaux.Location = new System.Drawing.Point(65, 54);
+            this.btn_delegue_chevaux.Name = "btn_delegue_chevaux";
+            this.btn_delegue_chevaux.Size = new System.Drawing.Size(195, 78);
+            this.btn_delegue_chevaux.TabIndex = 0;
+            this.btn_delegue_chevaux.Text = "Le délégué est :";
+            this.btn_delegue_chevaux.UseVisualStyleBackColor = true;
+            this.btn_delegue_chevaux.Click += new System.EventHandler(this.btn_delegue_chevaux_Click);
             // 
             // Fgeneral
             // 
@@ -226,6 +251,8 @@
             this.gbDetailCourse.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgCourses)).EndInit();
             this.tabgeneral.ResumeLayout(false);
+            this.tabCheval.ResumeLayout(false);
+            this.tabCheval.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -248,6 +275,8 @@
         private System.Windows.Forms.DataGridView dgCourses;
         private System.Windows.Forms.TabControl tabgeneral;
         private System.Windows.Forms.TabPage tabCheval;
+        private System.Windows.Forms.Label label_delegue_chevaux;
+        private System.Windows.Forms.Button btn_delegue_chevaux;
 
     }
 }

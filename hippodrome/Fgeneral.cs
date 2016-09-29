@@ -67,7 +67,13 @@ namespace hippodrome
         private void btAjoutCourse_Click(object sender, EventArgs e)
         {
 
-        }              
+        }
+
+        private void btn_delegue_chevaux_Click(object sender, EventArgs e)
+        {
+            btn_delegue_chevaux.Visible = false;
+            label_delegue_chevaux.Visible = true;
+        }        
      }       
     }
 
