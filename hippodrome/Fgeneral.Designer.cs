@@ -223,7 +223,7 @@
             this.btnBiere.Name = "btnBiere";
             this.btnBiere.Size = new System.Drawing.Size(205, 95);
             this.btnBiere.TabIndex = 0;
-            this.btnBiere.Text = "C\'est l\'histoire d\'un bière qui tombe à l\'eau et qui cri ...";
+            this.btnBiere.Text = "C\'est l\'histoire d\'une bière qui tombe à l\'eau et qui cri ...";
             this.btnBiere.UseVisualStyleBackColor = true;
             this.btnBiere.Click += new System.EventHandler(this.btnBiere_Click);
             // 
