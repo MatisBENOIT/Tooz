@@ -44,10 +44,12 @@
             this.dgCourses = new System.Windows.Forms.DataGridView();
             this.tabgeneral = new System.Windows.Forms.TabControl();
             this.tabCheval = new System.Windows.Forms.TabPage();
+            this.btnPapier = new System.Windows.Forms.Button();
             this.tabCourse.SuspendLayout();
             this.gbDetailCourse.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgCourses)).BeginInit();
             this.tabgeneral.SuspendLayout();
+            this.tabCheval.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabCourse
@@ -203,6 +205,7 @@
             // 
             // tabCheval
             // 
+            this.tabCheval.Controls.Add(this.btnPapier);
             this.tabCheval.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tabCheval.Location = new System.Drawing.Point(4, 28);
             this.tabCheval.Name = "tabCheval";
@@ -211,6 +214,16 @@
             this.tabCheval.TabIndex = 0;
             this.tabCheval.Text = "Les chevaux";
             this.tabCheval.UseVisualStyleBackColor = true;
+            // 
+            // btnPapier
+            // 
+            this.btnPapier.Location = new System.Drawing.Point(866, 6);
+            this.btnPapier.Name = "btnPapier";
+            this.btnPapier.Size = new System.Drawing.Size(171, 97);
+            this.btnPapier.TabIndex = 1;
+            this.btnPapier.Text = "C\'est l\'histoire d\'une feuille qui tombe à l\'eau et qui crie ...";
+            this.btnPapier.UseVisualStyleBackColor = true;
+            this.btnPapier.Click += new System.EventHandler(this.btnSalut_Click);
             // 
             // Fgeneral
             // 
@@ -226,6 +239,7 @@
             this.gbDetailCourse.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgCourses)).EndInit();
             this.tabgeneral.ResumeLayout(false);
+            this.tabCheval.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -248,6 +262,7 @@
         private System.Windows.Forms.DataGridView dgCourses;
         private System.Windows.Forms.TabControl tabgeneral;
         private System.Windows.Forms.TabPage tabCheval;
+        private System.Windows.Forms.Button btnPapier;
 
     }
 }
