@@ -71,7 +71,7 @@ namespace hippodrome
 
         private void btnSalut_Click(object sender, EventArgs e)
         {
-            btnSalut.Text = "Hi";
+            btnPapier.Text = "J'ai papier!";
         }              
      }       
     }
